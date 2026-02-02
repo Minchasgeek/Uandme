@@ -1,0 +1,28 @@
+[
+  {
+    "id": "foulard-niebla",
+    "name": "Foulard Niebla",
+    "category": "Pañuelos",
+    "description": "Pieza en edición limitada. Estampación basada en obra pictórica trasladada al textil.",
+    "materials": "Tejido ligero · Acabado suave",
+    "images": [
+      "/assets/Fulardniebla.jpeg"
+    ]
+  },
+  {
+    "id": "bolso-tinta",
+    "name": "Bolso Tinta",
+    "category": "Bolsos",
+    "description": "Diseño funcional con estética orgánica. Cada pieza tiene variaciones sutiles.",
+    "materials": "Textil estampado · Confección artesanal",
+    "images": ["/assets/Bolsoprueba.jpeg"]
+  },
+  {
+    "id": "habitar-vela",
+    "name": "Habitar · Textil",
+    "category": "Habitar",
+    "description": "Textil para el espacio. El mismo lenguaje visual aplicado al hogar.",
+    "materials": "Tejido decorativo",
+    "images": ["/assets/Pruebahabitartextil.jpeg"]
+  }
+]
