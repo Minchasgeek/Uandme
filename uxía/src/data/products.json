@@ -1,28 +1,76 @@
 [
   {
-    "id": "foulard-niebla",
-    "name": "Foulard Niebla",
-    "category": "Pañuelos",
-    "description": "Pieza en edición limitada. Estampación basada en obra pictórica trasladada al textil.",
-    "materials": "Tejido ligero · Acabado suave",
+    "id": "arc-long-001",
+    "section": "VESTIR",
+    "category": "BOLSOS",
+    "name": "ARC LONG 001",
+    "price": null,
+    "images": ["/assets/bolsomodelo4.jpeg"]
+  },
+  {
+    "id": "arc-long-002",
+    "section": "VESTIR",
+    "category": "BOLSOS",
+    "name": "ARC LONG 002",
+    "price": "149€",
+    "availability": "Disponible vía mensaje directo.",
+    "description": "Pieza única artesanal.",
+    "text": "Bolso shopper en cuero reciclado con cierre de flecos largos.\nEtiqueta grabada y cosida a mano.\nForro gris con raya roja y bolsillo interior abierto.",
+    "details": "Cuero reciclado procedente de excedentes de fábrica.\nHecho en Vigo.\nPieza única.",
+    "care": "No lavar en lavadora.\nNo usar secadora.\nEvitar la exposición prolongada al sol y al agua.",
     "images": [
-      "/assets/Fulardniebla.jpeg"
+      "/assets/bolsomodelo.jpeg",
+      "/assets/bolso12.jpeg",
+      "/assets/bolsomodelo9.jpeg",
+      "/assets/products/arc-long-002-4.jpg"
     ]
   },
   {
-    "id": "bolso-tinta",
-    "name": "Bolso Tinta",
-    "category": "Bolsos",
-    "description": "Diseño funcional con estética orgánica. Cada pieza tiene variaciones sutiles.",
-    "materials": "Textil estampado · Confección artesanal",
-    "images": ["/assets/Bolsoprueba.jpeg"]
+    "id": "arc-long-003",
+    "section": "VESTIR",
+    "category": "BOLSOS",
+    "name": "ARC LONG 003",
+    "price": null,
+    "images": ["/assets/bolsomodelo8.jpeg"]
   },
   {
-    "id": "habitar-vela",
-    "name": "Habitar · Textil",
-    "category": "Habitar",
-    "description": "Textil para el espacio. El mismo lenguaje visual aplicado al hogar.",
-    "materials": "Tejido decorativo",
-    "images": ["/assets/Pruebahabitartextil.jpeg"]
+    "id": "arc-long-004",
+    "section": "VESTIR",
+    "category": "BOLSOS",
+    "name": "ARC LONG 004",
+    "price": "149€",
+    "images": ["/assets/bolsomodelo3.jpeg"]
+  },
+  {
+    "id": "seda-blue",
+    "section": "VESTIR",
+    "category": "PAÑUELOS",
+    "name": "SEDA BLUE",
+    "price": "79€",
+    "images": ["/assets/pañmodelo1.1.jpeg"]
+  },
+  {
+    "id": "seda-ombra",
+    "section": "VESTIR",
+    "category": "PAÑUELOS",
+    "name": "SEDA OMBRA",
+    "price": "89€",
+    "images": ["/assets/pañuelo11.jpeg"]
+  },
+  {
+    "id": "lana-lili",
+    "section": "VESTIR",
+    "category": "PAÑUELOS",
+    "name": "LANA LILI",
+    "price": "84€",
+    "images": ["/assets/pañuelomodelo2.jpeg"]
+  },
+  {
+    "id": "acuarela-blue",
+    "section": "HABITAR",
+    "category": "ARTE",
+    "name": "ACUARELA BLUE",
+    "price": "69€",
+    "images": ["/assets/cuadro.jpeg"]
   }
 ]

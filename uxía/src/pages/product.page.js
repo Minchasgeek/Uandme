@@ -1,57 +1,59 @@
 import { el } from "../utils/dom.js";
-import { getProductById } from "../services/products.service.js";
+import { getById } from "../services/products.service.js";
 import { notFoundPage } from "./notfound.page.js";
-import { clear } from "../utils/dom.js";
+
+function linesToNodes(text) {
+  if (!text) return [];
+  return String(text)
+    .split("\n")
+    .map((line) => el("p", { class: "prod__p" }, line.trim()))
+    .filter((p) => p.textContent.length > 0);
+}
 
 export function productPage({ id }) {
-  const product = getProductById(id);
-  if (!product) return notFoundPage();
+  const p = getById(id);
+  if (!p) return notFoundPage();
 
-  let active = product.images?.[0] || "";
+  const imgs = (p.images || []).slice(0, 4);
 
-  const mainImg = el("img", {
-    class: "product__main-img",
-    src: active,
-    alt: product.name
-  });
+  return el("div", { class: "page container" }, [
+    el("div", { class: "prod" }, [
+      // Galería (2 columnas)
+      el(
+        "div",
+        { class: "prod__gallery" },
+        imgs.map((src) =>
+          el("img", {
+            class: "prod__img",
+            src,
+            alt: p.name,
+            loading: "lazy"
+          })
+        )
+      ),
 
-  const thumbs = el(
-    "div",
-    { class: "thumbs" },
-    (product.images || []).map((src) =>
-      el("button", {
-        class: `thumb ${src === active ? "thumb--active" : ""}`,
-        type: "button",
-        onClick: () => {
-          active = src;
-          mainImg.src = active;
+      // Info a la derecha
+      el("aside", { class: "prod__info" }, [
+        el("p", { class: "muted small" }, p.category || ""),
+        el("div", { class: "prod__top" }, [
+          el("h1", { class: "h1 prod__h1" }, p.name),
+          p.price ? el("p", { class: "price" }, p.price) : null
+        ]),
+        p.description ? el("p", { class: "prod__lead" }, p.description) : null,
+        p.availability ? el("p", { class: "muted" }, p.availability) : null,
 
-          for (const b of thumbs.querySelectorAll(".thumb")) {
-            b.classList.toggle("thumb--active", b.dataset.src === active);
-          }
-        },
-        dataset: { src }
-      }, [
-        el("img", { src, alt: `Vista de ${product.name}`, loading: "lazy" })
+        p.text ? el("div", { class: "prod__block" }, linesToNodes(p.text)) : null,
+
+        el("div", { class: "divider" }),
+
+        el("p", { class: "prod__label" }, "DETALLES TÉCNICOS"),
+        p.details ? el("div", { class: "prod__block" }, linesToNodes(p.details)) : el("p", {}, "—"),
+
+        el("div", { class: "divider" }),
+
+        el("p", { class: "prod__label" }, "CUIDADOS"),
+        p.care ? el("div", { class: "prod__block" }, linesToNodes(p.care)) : el("p", {}, "—")
       ])
-    )
-  );
-
-  const info = el("div", { class: "product__info" }, [
-    el("p", { class: "kicker muted" }, product.category),
-    el("h1", { class: "product__title" }, product.name),
-    el("p", { class: "product__desc" }, product.description || ""),
-    product.materials ? el("p", { class: "muted" }, product.materials) : null,
-    el("div", { class: "product__actions" }, [
-      el("a", { class: "btn", href: "mailto:hello@uandme.studio?subject=Consulta%20pieza" }, "Consultar / Encargar"),
-      el("a", { class: "btn btn--ghost", href: "#/piezas" }, "Volver")
     ])
   ]);
-
-  const layout = el("div", { class: "product" }, [
-    el("div", { class: "product__media" }, [mainImg, thumbs]),
-    info
-  ]);
-
-  return el("div", { class: "container page" }, [layout]);
 }

@@ -4,11 +4,9 @@ import { addRoute, startRouter } from "./app/router.js";
 
 mountApp();
 
-// Rutas (hash router)
 addRoute(/^\/$/, "home");
 addRoute(/^\/piezas$/, "pieces");
-addRoute(/^\/pieza\/(?<id>[a-z0-9-]+)$/, "product");
-addRoute(/^\/brand$/, "brand");
+addRoute(/^\/studio$/, "studio");
+addRoute(/^\/producto\/(?<id>[a-z0-9-]+)$/, "product");
 
 startRouter(renderRoute);
-

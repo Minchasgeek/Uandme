@@ -23,6 +23,6 @@ export function clear(node) {
   while (node.firstChild) node.removeChild(node.firstChild);
 }
 
-export function qs(selector, scope = document) {
-  return scope.querySelector(selector);
+export function qs(sel, scope = document) {
+  return scope.querySelector(sel);
 }

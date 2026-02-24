@@ -4,16 +4,16 @@ import { Footer } from "../components/layout/Footer.js";
 
 import { homePage } from "../pages/home.page.js";
 import { piecesPage } from "../pages/pieces.page.js";
+import { studioPage } from "../pages/studio.page.js";
 import { productPage } from "../pages/product.page.js";
-import { brandPage } from "../pages/brand.page.js";
 import { notFoundPage } from "../pages/notfound.page.js";
 
 const pages = {
   home: homePage,
   pieces: piecesPage,
+  studio: studioPage,
   product: productPage,
-  brand: brandPage,
-  notfound: notFoundPage,
+  notfound: notFoundPage
 };
 
 export function mountApp() {
