@@ -38,8 +38,8 @@ export function Header() {
   const header = el("header", { class: "hdr" }, [
     el("div", { class: "hdr__inner" }, [
       navLeft,
-      logo,
-      el("div", { class: "hdr__right" }, "")
+      el("div", { class: "hdr__spacer" }, ""),
+      logo
     ]),
     overlay,
     panel
