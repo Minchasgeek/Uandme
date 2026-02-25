@@ -245,13 +245,7 @@ img{ max-width:100%; display:block; }
   object-fit: cover;       /* ✅ rellena el cuadro */
   display: block;
 }
-.prod__gallery{
-  gap: 18px;
-}
 
-.prod__gallery img{
-  overflow: hidden;
-}
 .prod__info{ padding-top: 8px; }
 .price{ margin: 10px 0 0; font-size: 14px; letter-spacing:.08em; }
 .divider{ height:1px; background: var(--line); margin: 18px 0; }
