@@ -393,3 +393,10 @@ img{ max-width:100%; display:block; }
   opacity: 1;
   transform: translateY(0);
 }
+.ftr__mail{
+  display: inline-block;
+  margin-top: 8px;
+  color: var(--text);
+  text-decoration: underline;
+  font-size: 13px;
+}

@@ -1,76 +1,146 @@
 [
   {
-    "id": "arc-long-001",
-    "section": "VESTIR",
-    "category": "BOLSOS",
-    "name": "ARC LONG 001",
-    "price": null,
-    "images": ["/assets/bolsomodelo4.jpeg"]
+  "id": "arc-long-001",
+  "section": "VESTIR",
+  "category": "BOLSOS",
+  "name": "ARC LONG 001",
+  "price": "149€",
+  "availability": "Disponible vía mensaje directo.",
+  "description": "Pieza única artesanal.",
+  "text": "Bolso shopper negro con textura en cuero recuperado con cierre de flecos largos.\nEtiqueta a tono grabada y cosida a mano.\nForro negro con raya amarilla y bolsillo interior.",
+  "details": "Cuero recuperado de excedentes de fábrica.\nHecho a mano en Vigo\nDimensiones: 42 × 32 × 10 cm\nAsa: 106 cm (longitud total)",
+  "care": "No lavar en lavadora ni usar secadora.\nEvitar la exposición prolongada al sol y al agua.",
+  "images": [
+    "/assets/arc.long.001.01.jpeg",
+    "/assets/arc.long.001.02.jpeg",
+    "/assets/arc.long.001.03.jpeg",
+    "/assets/arc.long.001.04.jpeg"
+  ]
   },
   {
-    "id": "arc-long-002",
-    "section": "VESTIR",
-    "category": "BOLSOS",
-    "name": "ARC LONG 002",
-    "price": "149€",
-    "availability": "Disponible vía mensaje directo.",
-    "description": "Pieza única artesanal.",
-    "text": "Bolso shopper en cuero reciclado con cierre de flecos largos.\nEtiqueta grabada y cosida a mano.\nForro gris con raya roja y bolsillo interior abierto.",
-    "details": "Cuero reciclado procedente de excedentes de fábrica.\nHecho en Vigo.\nPieza única.",
-    "care": "No lavar en lavadora.\nNo usar secadora.\nEvitar la exposición prolongada al sol y al agua.",
-    "images": [
-      "/assets/bolsomodelo.jpeg",
-      "/assets/bolso12.jpeg",
-      "/assets/bolsomodelo9.jpeg",
-      "/assets/products/arc-long-002-4.jpg"
-    ]
+  "id": "arc-long-002",
+  "section": "VESTIR",
+  "category": "BOLSOS",
+  "name": "ARC LONG 002",
+  "price": "149€",
+  "availability": "Disponible vía mensaje directo.",
+  "description": "Pieza única artesanal.",
+  "text": "Bolso shopper dorado en cuero recuperado con cierre de flecos largos.\nEtiqueta a tono grabada y cosida a mano.\nForro azul marino con rayas a contraste y bolsillo interior.",
+  "details": "Cuero recuperado de excedentes de fábrica.\nHecho a mano en Vigo\nDimensiones: 41 × 31 × 10 cm\nAsa: 107 cm (longitud total)",
+  "care": "No lavar en lavadora ni usar secadora.\nEvitar la exposición prolongada al sol y al agua.",
+  "images": [
+    "/assets/arc.long.002.01.jpeg",
+    "/assets/arc.long.002.02.jpeg",
+    "/assets/arc.long.002.03.jpeg",
+    "/assets/arc.long.002.04.jpeg"
+  ]
   },
   {
-    "id": "arc-long-003",
-    "section": "VESTIR",
-    "category": "BOLSOS",
-    "name": "ARC LONG 003",
-    "price": null,
-    "images": ["/assets/bolsomodelo8.jpeg"]
+  "id": "arc-long-003",
+  "section": "VESTIR",
+  "category": "BOLSOS",
+  "name": "ARC LONG 003",
+  "price": "149€",
+  "availability": "Disponible vía mensaje directo.",
+  "description": "Pieza única artesanal.",
+  "text": "Bolso shopper gris oscuro en cuero recuperado con cierre de flecos largos.\nEtiqueta a contraste grabada y cosida a mano.\nForro gris con raya roja y bolsillo interior.",
+  "details": "Cuero recuperado de excedentes de fábrica.\nHecho a mano en Vigo\nDimensiones: 41 × 31 × 10 cm\nAsa: 104 cm (longitud total)",
+  "care": "No lavar en lavadora ni usar secadora.\nEvitar la exposición prolongada al sol y al agua.",
+  "images": [
+    "/assets/arc.long.003.01.jpeg",
+    "/assets/arc.long.003.02.jpeg",
+    "/assets/arc.long.003.03.jpeg",
+    "/assets/arc.long.003.04.jpeg"
+  ]
   },
   {
-    "id": "arc-long-004",
-    "section": "VESTIR",
-    "category": "BOLSOS",
-    "name": "ARC LONG 004",
-    "price": "149€",
-    "images": ["/assets/bolsomodelo3.jpeg"]
+  "id": "arc-long-004",
+  "section": "VESTIR",
+  "category": "BOLSOS",
+  "name": "ARC LONG 004",
+  "price": "149€",
+  "availability": "Disponible vía mensaje directo.",
+  "description": "Pieza única artesanal.",
+  "text": "Bolso shopper negro en cuero recuperado con cierre de flecos largos.\nEtiqueta a contraste grabada y cosida a mano.\nForro negro con raya amarilla y bolsillo interior.",
+  "details": "Cuero recuperado de excedentes de fábrica.\nHecho a mano en Vigo\nDimensiones: 43 × 33 × 12 cm\nAsa: 109 cm (longitud total)",
+  "care": "No lavar en lavadora ni usar secadora.\nEvitar la exposición prolongada al sol y al agua.",
+  "images": [
+    "/assets/arc.long.004.01.jpeg",
+    "/assets/arc.long.004.02.jpeg",
+    "/assets/arc.long.004.03.jpeg",
+    "/assets/arc.long.004.04.jpeg"
+  ]
   },
   {
-    "id": "seda-blue",
-    "section": "VESTIR",
-    "category": "PAÑUELOS",
-    "name": "SEDA BLUE",
-    "price": "79€",
-    "images": ["/assets/pañmodelo1.1.jpeg"]
+  "id": "seda-blue",
+  "section": "VESTIR",
+  "category": "PAÑUELOS",
+  "name": "SEDA BLUE",
+  "price": "79€",
+  "availability": "Disponible vía mensaje directo.",
+  "description": "Edición limitada.",
+  "text": "Pañuelo floral de seda estampada a partir de una ilustración original pintada a mano.\nFirma a tono en la esquina.\nAcabado con costuras realizadas a mano.",
+  "details": "100% seda\n66 x 66 cm\nHecho a mano en España\nLa seda refleja la luz de forma única, por lo que los tonos pueden percibirse ligeramente distintos según el entorno.",
+  "care": "Lavar a mano en frío.\nNo usar secadora.\nPlanchar a baja temperatura (máx. 100º).",
+  "images": [
+    "/assets/seda.blue.01.jpeg",
+    "/assets/seda.blue.02.jpeg",
+    "/assets/seda.blue.03.jpeg",
+    "/assets/seda.blue.04.jpeg"
+  ]
   },
   {
-    "id": "seda-ombra",
-    "section": "VESTIR",
-    "category": "PAÑUELOS",
-    "name": "SEDA OMBRA",
-    "price": "89€",
-    "images": ["/assets/pañuelo11.jpeg"]
+  "id": "seda-ombra",
+  "section": "VESTIR",
+  "category": "PAÑUELOS",
+  "name": "SEDA OMBRA",
+  "price": "89€",
+  "availability": "Disponible vía mensaje directo.",
+  "description": "Edición limitada.",
+  "text": "Pañuelo animal print de seda estampada a partir de una ilustración original pintada a mano en tonos tierra y grises.\nFirma en contraste en las esquinas.\nAcabado con costuras realizadas a mano.",
+  "details": "100% seda\n136 x 46 cm\nHecho a mano en España\nLa seda refleja la luz de forma única, por lo que los tonos pueden percibirse ligeramente distintos según el entorno.",
+  "care": "Lavar a mano en frío.\nNo usar secadora.\nPlanchar a baja temperatura (máx. 100º).",
+  "images": [
+    "/assets/seda.ombra.01.jpeg",
+    "/assets/seda.ombra.02.jpeg",
+    "/assets/seda.ombra.03.jpeg",
+    "/assets/seda.ombra.04.jpeg"
+  ]
   },
   {
-    "id": "lana-lili",
-    "section": "VESTIR",
-    "category": "PAÑUELOS",
-    "name": "LANA LILI",
-    "price": "84€",
-    "images": ["/assets/pañuelomodelo2.jpeg"]
+  "id": "lana-lili",
+  "section": "VESTIR",
+  "category": "PAÑUELOS",
+  "name": "LANA LILI",
+  "price": "84€",
+  "availability": "Disponible vía mensaje directo.",
+  "description": "Edición limitada.",
+  "text": "Pañuelo rosa y verde de lana estampada a partir de manchas de pintura realizadas a mano. Cada pieza es diferente.\nFirma en contraste en la esquina.\nAcabado dehilachado y costuras realizadas a mano.",
+  "details": "100% lana\nFormato triangular 136 x 66 cm\nHecho a mano en España\nLa seda refleja la luz de forma única, por lo que los tonos pueden percibirse ligeramente distintos según el entorno.",
+  "care": "Lavar a mano en frío.\nNo usar secadora.\nPlanchar a baja temperatura (máx. 100º).",
+  "images": [
+    "/assets/lana.lili.01.jpeg",
+    "/assets/lana.lili.02.jpeg",
+    "/assets/lana.lili.03.jpeg",
+    "/assets/lana.lili.04.jpeg"
+  ]
   },
   {
-    "id": "acuarela-blue",
-    "section": "HABITAR",
-    "category": "ARTE",
-    "name": "ACUARELA BLUE",
-    "price": "69€",
-    "images": ["/assets/cuadro.jpeg"]
+  "id": "acuarela-blue",
+  "section": "HABITAR",
+  "category": "ARTE",
+  "name": "ACUARELA BLUE",
+  "price": "79€",
+  "availability": "Disponible vía mensaje directo.",
+  "description": "Edición limitada 10 unidades.",
+  "text": "Cuadro con lámina azul floral impresa a partir de obra original pintada a mano.\nNumerado y firmado a mano.\nMarco de madera oscura, cristal frontal y paspartú de lino.",
+  "details": "Madera, lino, cristal y papel\n40x50 cm\nHecho en Vigo",
+  "care": "Evitar la exposición prolongada al sol.",
+  "images": [
+    "/assets/acuarela.blue.01.jpeg",
+    "/assets/acuarela.blue.02.jpeg",
+    "/assets/acuarela.blue.03.jpeg",
+    "/assets/acuarela.blue.04.jpeg"
+  ]
   }
 ]

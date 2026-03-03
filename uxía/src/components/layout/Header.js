@@ -4,7 +4,7 @@ export function Header() {
   let menuOpen = false;
 
   const logo = el("a", { class: "hdr__logo", href: "#/" }, [
-    el("img", { class: "hdr__logoImg", src: "/assets/Uandmelogo.jpeg", alt: "U&me Studio" })
+    el("img", { class: "hdr__logoImg", src: "/assets/logosinfonfo.png", alt: "U&me Studio" })
   ]);
 
   const piecesBtn = el("button", {

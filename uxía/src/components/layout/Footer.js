@@ -4,27 +4,86 @@ export function Footer() {
   const blocks = el("div", { class: "ftr__left" }, [
     FooterAccordion(
       "ESCRÍBENOS",
-      "Si tienes cualquier duda sobre una pieza, su disponibilidad o el proceso de compra, estaremos encantadas de leerte."
+      "Si tienes cualquier duda sobre una pieza, su disponibilidad o el proceso de compra, estaremos encantadas de leerte por mensaje en redes o a través del siguiente correo:",
+      [
+        el(
+          "a",
+          {
+            class: "ftr__mail",
+            href: "mailto:hello.uandmestudio@gmail.com"
+          },
+          "hello.uandmestudio@gmail.com"
+        )
+      ]
     ),
+
     FooterAccordion(
       "CÓMO COMPRAR",
-      "Por el momento, las compras se gestionan por mensaje directo en Instagram. Indica el nombre del producto y te confirmaremos disponibilidad y pago."
+      "Por el momento, las compras se gestionan a través de mensaje directo en Instagram.",
+      [
+        el(
+          "p",
+          { class: "ftr__text" },
+          "Si estás interesada en una pieza, indícanos el nombre del producto y te confirmaremos disponibilidad y detalles de pago."
+        ),
+        el(
+          "p",
+          { class: "ftr__text" },
+          "En el caso de piezas únicas —como bolsos u obras originales— la venta se asignará a la primera persona que contacte."
+        ),
+        el(
+          "p",
+          { class: "ftr__text" },
+          "La pieza quedará reservada únicamente una vez recibido el pago."
+        )
+      ]
     ),
+
     FooterAccordion(
       "ENVÍOS",
-      "Envío aprox. 3–5 días laborables. Península y Baleares: 5,90 €. Canarias y Europa: 9,90 €. Entrega gratuita en Vigo y Pontevedra."
+      "Los pedidos se preparan cuidadosamente y se envían en un plazo aproximado de 3 a 5 días laborables desde la confirmación del pago.",
+      [
+        el("p", { class: "ftr__text" }, "Entrega gratuita en Vigo y Pontevedra."),
+        el("p", { class: "ftr__text" }, "Envío estandar: 5,90 €"),
+        el(
+          "p",
+          { class: "ftr__text" },
+          "Para piezas de gran formato el coste se calculará de manera personalizada según destino y dimensiones."
+        )
+      ]
     ),
+
     FooterAccordion(
       "PIEZAS ÚNICAS",
-      "Ediciones limitadas o piezas únicas hechas a mano. Variaciones y matices forman parte de su carácter."
+      "Muchas de nuestras creaciones son ediciones limitadas o piezas únicas, hechas a mano desde nuestro pequeño taller.",
+      [
+        el(
+          "p",
+          { class: "ftr__text" },
+          "Pequeñas variaciones, imperfecciones, trazos o matices forman parte de su carácter y autenticidad."
+        ),
+        el(
+          "p",
+          { class: "ftr__text" },
+          "Cada pieza es ligeramente distinta y eso es precisamente lo que la hace especial, no habrá otra igual."
+        )
+      ]
     ),
+
     FooterAccordion(
       "DEVOLUCIONES",
-      "No se admiten devoluciones por la naturaleza limitada. Si hay incidencia, escríbenos y lo resolvemos."
+      "Debido a la naturaleza limitada y exclusiva de las piezas, no se admiten devoluciones.",
+      [
+        el(
+          "p",
+          { class: "ftr__text" },
+          "Si tu pedido presenta algún desperfecto o incidencia durante el envío, escríbenos."
+        )
+      ]
     )
   ]);
 
-  // ✅ Cambia estos enlaces por los reales de la marca
+  // ✅ Pon aquí los enlaces reales
   const instagramUrl = "https://instagram.com/uandme__studio";
   const tiktokUrl = "https://www.tiktok.com/@uandme__studio";
 
@@ -38,11 +97,12 @@ export function Footer() {
   ]);
 }
 
-function FooterAccordion(title, text) {
+function FooterAccordion(title, leadText, extraNodes = []) {
   let pinned = false;
 
   const content = el("div", { class: "ftrA__content" }, [
-    el("p", { class: "ftr__text" }, text)
+    el("p", { class: "ftr__text" }, leadText),
+    ...extraNodes
   ]);
 
   const btn = el("button", {
@@ -58,13 +118,8 @@ function FooterAccordion(title, text) {
 
   const wrapper = el("section", { class: "ftr__block ftrA" }, [btn, content]);
 
-  // hover: abre mientras estás encima, pero sin “pin”
-  wrapper.addEventListener("mouseenter", () => {
-    wrapper.classList.add("is-hover");
-  });
-  wrapper.addEventListener("mouseleave", () => {
-    wrapper.classList.remove("is-hover");
-  });
+  wrapper.addEventListener("mouseenter", () => wrapper.classList.add("is-hover"));
+  wrapper.addEventListener("mouseleave", () => wrapper.classList.remove("is-hover"));
 
   return wrapper;
 }

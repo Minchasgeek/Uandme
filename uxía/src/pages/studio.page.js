@@ -19,13 +19,13 @@ export function studioPage() {
       el("div", { class: "studio__media" }, [
         el("img", {
           class: "studio__img studio__img--wide",
-          src: "/assets/tej.jpeg",
+          src: "/assets/studio.01.jpeg",
           alt: "Proceso de trabajo en el estudio",
           loading: "lazy"
         }),
         el("img", {
           class: "studio__img studio__img--tall",
-          src: "/assets/tej2.jpeg",
+          src: "/assets/studio.02.jpeg",
           alt: "Detalle del estudio",
           loading: "lazy"
         })

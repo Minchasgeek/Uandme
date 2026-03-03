@@ -5,12 +5,12 @@ export function LaunchBlocks() {
     el("div", { class: "launch__inner" }, [
       LaunchBlock({
         side: "left",
-        img: "/assets/bolsomodelo6.jpeg",
+        img: "/assets/descubrir.01.jpeg",
         href: "#/piezas?section=VESTIR&cat=BOLSOS"
       }),
       LaunchBlock({
         side: "right",
-        img: "/assets/pañmodelo1.jpeg",
+        img: "/assets/descubrir.02.jpeg",
         href: "#/piezas?section=VESTIR&cat=PAÑUELOS"
       })
     ])
