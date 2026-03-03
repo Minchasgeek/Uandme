@@ -380,23 +380,32 @@ img{ max-width:100%; display:block; }
   transition: max-height .18s ease, opacity .18s ease, transform .18s ease;
 }
 
-/* Hover: muestra mientras pasas por encima */
-.ftrA.is-hover .ftrA__content{
-  max-height: 200px;
+.ftrA.is-hover .ftrA__content,
+.ftrA.is-pinned .ftrA__content{
+  max-height: 900px;   /* ✅ suficiente para textos largos */
   opacity: 1;
   transform: translateY(0);
 }
 
-/* Click: se queda fijo abierto */
-.ftrA.is-pinned .ftrA__content{
-  max-height: 200px;
-  opacity: 1;
-  transform: translateY(0);
-}
 .ftr__mail{
   display: inline-block;
   margin-top: 8px;
   color: var(--text);
   text-decoration: underline;
   font-size: 13px;
+}
+
+@media (max-width: 900px){
+  /* En móvil ignoramos hover: solo click (is-pinned) */
+  .ftrA.is-hover .ftrA__content{
+    max-height: 0;
+    opacity: 0;
+    transform: translateY(-2px);
+  }
+
+  .ftrA.is-pinned .ftrA__content{
+    max-height: 1200px;  /* más margen aún */
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
