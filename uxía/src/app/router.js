@@ -15,9 +15,12 @@ function match(path) {
 export function startRouter(render) {
   function onChange() {
     let path = location.hash.replace(/^#/, "") || "/";
-    path = path.split("?")[0] || "/"; // ✅ clave para /piezas?...
+    path = path.split("?")[0] || "/";
 
     render(match(path));
+
+    // ✅ fuerza inicio arriba en cada navegación
+    window.scrollTo({ top: 0, left: 0, behavior: "auto" });
   }
 
   window.addEventListener("hashchange", onChange);
