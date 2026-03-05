@@ -8,11 +8,11 @@
   "availability": "Disponible vía mensaje directo.",
   "description": "Pieza única artesanal.",
   "text": "Bolso shopper negro con textura en cuero recuperado con cierre de flecos largos.\nEtiqueta a tono grabada y cosida a mano.\nForro negro con raya amarilla y bolsillo interior.",
-  "details": "Cuero recuperado de excedentes de fábrica.\nHecho a mano en Vigo\nDimensiones: 42 × 32 × 10 cm\nAsa: 106 cm (longitud total)",
+  "details": "Cuero recuperado de excedentes de fábrica.\n42 × 32 × 10 cm\n106 cm (longitud total del asa)\nHecho a mano en Vigo",
   "care": "No lavar en lavadora ni usar secadora.\nEvitar la exposición prolongada al sol y al agua.",
   "images": [
-    "/assets/arc.long.001.01.jpeg",
     "/assets/arc.long.001.02.jpeg",
+    "/assets/arc.long.001.01.jpeg",
     "/assets/arc.long.001.03.jpeg",
     "/assets/arc.long.001.04.jpeg"
   ]
@@ -26,7 +26,7 @@
   "availability": "Disponible vía mensaje directo.",
   "description": "Pieza única artesanal.",
   "text": "Bolso shopper dorado en cuero recuperado con cierre de flecos largos.\nEtiqueta a tono grabada y cosida a mano.\nForro azul marino con rayas a contraste y bolsillo interior.",
-  "details": "Cuero recuperado de excedentes de fábrica.\nHecho a mano en Vigo\nDimensiones: 41 × 31 × 10 cm\nAsa: 107 cm (longitud total)",
+  "details": "Cuero recuperado de excedentes de fábrica.\n41 × 31 × 10 cm\n107 cm (longitud total del asa)\nHecho a mano en Vigo",
   "care": "No lavar en lavadora ni usar secadora.\nEvitar la exposición prolongada al sol y al agua.",
   "images": [
     "/assets/arc.long.002.01.jpeg",
@@ -44,7 +44,7 @@
   "availability": "Disponible vía mensaje directo.",
   "description": "Pieza única artesanal.",
   "text": "Bolso shopper gris oscuro en cuero recuperado con cierre de flecos largos.\nEtiqueta a contraste grabada y cosida a mano.\nForro gris con raya roja y bolsillo interior.",
-  "details": "Cuero recuperado de excedentes de fábrica.\nHecho a mano en Vigo\nDimensiones: 41 × 31 × 10 cm\nAsa: 104 cm (longitud total)",
+  "details": "Cuero recuperado de excedentes de fábrica.\n41 × 31 × 10 cm\n104 cm (longitud total del asa)\nHecho a mano en Vigo",
   "care": "No lavar en lavadora ni usar secadora.\nEvitar la exposición prolongada al sol y al agua.",
   "images": [
     "/assets/arc.long.003.01.jpeg",
@@ -62,7 +62,7 @@
   "availability": "Disponible vía mensaje directo.",
   "description": "Pieza única artesanal.",
   "text": "Bolso shopper negro en cuero recuperado con cierre de flecos largos.\nEtiqueta a contraste grabada y cosida a mano.\nForro negro con raya amarilla y bolsillo interior.",
-  "details": "Cuero recuperado de excedentes de fábrica.\nHecho a mano en Vigo\nDimensiones: 43 × 33 × 12 cm\nAsa: 109 cm (longitud total)",
+  "details": "Cuero recuperado de excedentes de fábrica.\n43 × 33 × 12 cm\n109 cm (longitud total del asa)\nHecho a mano en Vigo",
   "care": "No lavar en lavadora ni usar secadora.\nEvitar la exposición prolongada al sol y al agua.",
   "images": [
     "/assets/arc.long.004.01.jpeg",
@@ -101,10 +101,10 @@
   "details": "100% seda\n136 x 46 cm\nHecho a mano en España\nLa seda refleja la luz de forma única, por lo que los tonos pueden percibirse ligeramente distintos según el entorno.",
   "care": "Lavar a mano en frío.\nNo usar secadora.\nPlanchar a baja temperatura (máx. 100º).",
   "images": [
-    "/assets/seda.ombra.01.jpeg",
+    "/assets/seda.ombra.01.jpg",
     "/assets/seda.ombra.02.jpeg",
     "/assets/seda.ombra.03.jpeg",
-    "/assets/seda.ombra.04.jpeg"
+    "/assets/seda.ombra.04.jpg"
   ]
   },
   {
@@ -116,7 +116,7 @@
   "availability": "Disponible vía mensaje directo.",
   "description": "Edición limitada.",
   "text": "Pañuelo rosa y verde de lana estampada a partir de manchas de pintura realizadas a mano. Cada pieza es diferente.\nFirma en contraste en la esquina.\nAcabado dehilachado y costuras realizadas a mano.",
-  "details": "100% lana\nFormato triangular 136 x 66 cm\nHecho a mano en España\nLa seda refleja la luz de forma única, por lo que los tonos pueden percibirse ligeramente distintos según el entorno.",
+  "details": "100% lana\nFormato triangular 136 x 66 cm\nHecho a mano en España\nCada pañuelo presenta una composición única del estampado. La disposición de las manchas rosas y verdes varía en cada pieza, haciendo que cada una sea diferente. Así como la firma, que puede ser en ambos tonos.",
   "care": "Lavar a mano en frío.\nNo usar secadora.\nPlanchar a baja temperatura (máx. 100º).",
   "images": [
     "/assets/lana.lili.01.jpeg",

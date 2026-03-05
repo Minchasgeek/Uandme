@@ -39,17 +39,13 @@ export function Footer() {
       ]
     ),
 
-    FooterAccordion(
-      "ENVÍOS",
+  FooterAccordion(
+     "ENVÍOS",
       "Los pedidos se preparan cuidadosamente y se envían en un plazo aproximado de 3 a 5 días laborables desde la confirmación del pago.",
       [
-        el("p", { class: "ftr__text" }, "Entrega gratuita en Vigo y Pontevedra."),
-        el("p", { class: "ftr__text" }, "Envío estandar: 5,90 €"),
-        el(
-          "p",
-          { class: "ftr__text" },
-          "Para piezas de gran formato el coste se calculará de manera personalizada según destino y dimensiones."
-        )
+        el("p", { class: "ftr__text" }, "Envío estándar: 5,90 €"),
+        el("p", { class: "ftr__text" }, "Envío gratuito a partir de 140€"),
+        el("p", { class: "ftr__text" }, "Entrega gratuita en Vigo y Pontevedra.")
       ]
     ),
 
