@@ -409,3 +409,24 @@ img{ max-width:100%; display:block; }
     transform: translateY(0);
   }
 }
+/* Badge "AGOTADO" */
+.pcard__media{ position: relative; }
+
+.badge{
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  padding: 8px 12px;
+  border-radius: 999px;
+  background: rgba(255,255,255,.92);
+  border: 1px solid var(--line);
+  font-size: 12px;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+}
+
+/* opcional: que el producto agotado se vea un poco más suave */
+.pcard--soldout img{
+  filter: grayscale(1) contrast(0.95);
+  opacity: 0.92;
+}
