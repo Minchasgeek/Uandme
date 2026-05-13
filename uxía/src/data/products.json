@@ -30,9 +30,9 @@
   "details": "Cuero recuperado de excedentes de fábrica.\n41 × 31 × 10 cm\n107 cm (longitud total del asa)\nHecho a mano en Vigo",
   "care": "No lavar en lavadora ni usar secadora.\nEvitar la exposición prolongada al sol y al agua.",
   "images": [
-    "/assets/arc.long.002.01.jpeg",
-    "/assets/arc.long.002.02.jpeg",
-    "/assets/arc.long.002.03.jpeg",
+    "/assets/arclong.002.01.jpg",
+    "/assets/arclong.002.02.jpeg",
+    "/assets/arclong.002.03.jpg",
     "/assets/arc.long.002.04.jpeg"
   ]
   },
@@ -75,6 +75,169 @@
   ]
   },
   {
+  "id": "arc-long-013",
+  "section": "VESTIR",
+  "category": "BOLSOS",
+  "name": "ARC LONG 013",
+  "price": "149€",
+  "availability": "Disponible vía mensaje directo.",
+  "description": "Pieza única artesanal.",
+  "text": "Bolso shopper azul en cuero recuperado con cierre de flecos largos.\nEtiqueta a tono grabada y cosida a mano.\nForro de raya azul y verde y bolsillo interior.",
+  "details": "Cuero recuperado de excedentes de fábrica.\n44 × 32 × 10 cm\n115 cm (longitud total del asa)\nHecho a mano en Vigo.",
+  "care": "No lavar en lavadora ni usar secadora.\nEvitar la exposición prolongada al sol y al agua.",
+  "images": [
+    "/assets/arclong.013.01.jpg",
+    "/assets/arclong.013.02.jpg",
+    "/assets/arclong.013.03.jpg",
+    "/assets/arclong.013.04.jpg"
+  ]
+},
+{
+  "id": "arc-long-012",
+  "section": "VESTIR",
+  "category": "BOLSOS",
+  "name": "ARC LONG 012",
+  "price": "149€",
+  "availability": "Disponible vía mensaje directo.",
+  "description": "Pieza única artesanal.",
+  "text": "Bolso shopper negro en cuero recuperado con cierre de flecos largos.\nEtiqueta a contraste grabada y cosida a mano.\nForro gris con raya blanca y bolsillo interior.",
+  "details": "Cuero recuperado de excedentes de fábrica.\n43 × 32 × 10 cm\n113 cm (longitud total del asa)\nHecho a mano en Vigo.",
+  "care": "No lavar en lavadora ni usar secadora.\nEvitar la exposición prolongada al sol y al agua.",
+  "images": [
+    "/assets/arclong.012.01.jpg",
+    "/assets/arclong.012.02.jpg",
+    "/assets/arclong.012.03.jpg",
+    "/assets/arclong.012.04.jpg"
+  ]
+},
+{
+  "id": "arc-long-011",
+  "section": "VESTIR",
+  "category": "BOLSOS",
+  "name": "ARC LONG 011",
+  "price": "149€",
+  "availability": "Disponible vía mensaje directo.",
+  "description": "Pieza única artesanal.",
+  "text": "Bolso shopper gris claro en cuero recuperado con cierre de flecos largos.\nEtiqueta a contraste grabada y cosida a mano.\nForro oscuro con rayas a contraste y bolsillo interior.",
+  "details": "Cuero recuperado de excedentes de fábrica.\n44 × 32 × 11 cm\n112 cm (longitud total del asa)\nHecho a mano en Vigo.",
+  "care": "No lavar en lavadora ni usar secadora.\nEvitar la exposición prolongada al sol y al agua.",
+  "images": [
+    "/assets/arclong.011.01.jpg",
+    "/assets/arclong.011.02.jpg",
+    "/assets/arclong.011.03.jpg",
+    "/assets/arclong.011.04.jpg"
+  ]
+},
+{
+  "id": "arc-long-010",
+  "section": "VESTIR",
+  "category": "BOLSOS",
+  "name": "ARC LONG 010",
+  "price": "149€",
+  "availability": "Disponible vía mensaje directo.",
+  "description": "Pieza única artesanal.",
+  "text": "Bolso shopper amarillo verdoso en cuero recuperado con cierre de flecos largos.\nEtiqueta a contraste grabada y cosida a mano.\nForro marrón con raya blanca y bolsillo interior.",
+  "details": "Cuero recuperado de excedentes de fábrica.\n42 × 32 × 10 cm\n117 cm (longitud total del asa)\nHecho a mano en Vigo.",
+  "care": "No lavar en lavadora ni usar secadora.\nEvitar la exposición prolongada al sol y al agua.",
+  "images": [
+    "/assets/arclong.010.01.jpg",
+    "/assets/arclong.010.02.jpg",
+    "/assets/arclong.010.03.jpg",
+    "/assets/arclong.010.04.jpg"
+  ]
+},
+{
+  "id": "arc-long-009",
+  "section": "VESTIR",
+  "category": "BOLSOS",
+  "name": "ARC LONG 009",
+  "price": "149€",
+  "availability": "Disponible vía mensaje directo.",
+  "description": "Pieza única artesanal.",
+  "text": "Bolso shopper rojo efecto charol en cuero recuperado con cierre de flecos largos.\nEtiqueta a tono grabada y cosida a mano.\nForro de raya blanca y roja y bolsillo interior.",
+  "details": "Cuero recuperado de excedentes de fábrica.\n43 × 32 × 11 cm\n116 cm (longitud total del asa)\nHecho a mano en Vigo.",
+  "care": "No lavar en lavadora ni usar secadora.\nEvitar la exposición prolongada al sol y al agua.",
+  "images": [
+    "/assets/arclong.009.01.jpg",
+    "/assets/arclong.009.02.jpg",
+    "/assets/arclong.009.03.jpg",
+    "/assets/arclong.009.04.jpg"
+  ]
+},
+{
+  "id": "arc-long-008",
+  "section": "VESTIR",
+  "category": "BOLSOS",
+  "name": "ARC LONG 008",
+  "price": "149€",
+  "availability": "Disponible vía mensaje directo.",
+  "description": "Pieza única artesanal.",
+  "text": "Bolso shopper negro con textura en cuero recuperado con cierre de flecos largos.\nEtiqueta a contraste grabada y cosida a mano.\nForro gris claro con rayas a contraste y bolsillo interior.",
+  "details": "Cuero recuperado de excedentes de fábrica.\n46 × 32 × 10 cm\n111 cm (longitud total del asa)\nHecho a mano en Vigo.",
+  "care": "No lavar en lavadora ni usar secadora.\nEvitar la exposición prolongada al sol y al agua.",
+  "images": [
+    "/assets/arclong.008.01.jpg",
+    "/assets/arclong.008.02.jpg",
+    "/assets/arclong.008.03.jpg",
+    "/assets/arclong.008.04.jpg"
+  ]
+},
+{
+  "id": "arc-long-007",
+  "section": "VESTIR",
+  "category": "BOLSOS",
+  "name": "ARC LONG 007",
+  "price": "149€",
+  "availability": "Disponible vía mensaje directo.",
+  "description": "Pieza única artesanal.",
+  "text": "Bolso shopper gris oscuro en cuero recuperado con cierre de flecos largos.\nEtiqueta a tono grabada y cosida a mano.\nForro gris con raya azul y bolsillo interior.",
+  "details": "Cuero recuperado de excedentes de fábrica.\n44 × 31 × 11 cm\n114 cm (longitud total del asa)\nHecho a mano en Vigo.",
+  "care": "No lavar en lavadora ni usar secadora.\nEvitar la exposición prolongada al sol y al agua.",
+  "images": [
+    "/assets/arclong.007.01.jpg",
+    "/assets/arclong.007.02.jpg",
+    "/assets/arclong.007.03.jpg",
+    "/assets/arclong.007.04.jpg"
+  ]
+},
+{
+  "id": "arc-long-006",
+  "section": "VESTIR",
+  "category": "BOLSOS",
+  "name": "ARC LONG 006",
+  "price": "149€",
+  "availability": "Disponible vía mensaje directo.",
+  "description": "Pieza única artesanal.",
+  "text": "Bolso shopper marrón en cuero recuperado con cierre de flecos largos.\nEtiqueta a tono grabada y cosida a mano.\nForro azul marino con rayas a contraste y bolsillo interior.",
+  "details": "Cuero recuperado de excedentes de fábrica.\n41 × 31 × 10 cm\n112 cm (longitud total del asa)\nHecho a mano en Vigo.",
+  "care": "No lavar en lavadora ni usar secadora.\nEvitar la exposición prolongada al sol y al agua.",
+  "images": [
+    "/assets/arclong.006.01.jpg",
+    "/assets/arclong.006.02.jpg",
+    "/assets/arclong.006.03.jpg",
+    "/assets/arclong.006.04.jpg"
+  ]
+},
+{
+  "id": "arc-long-005",
+  "section": "VESTIR",
+  "category": "BOLSOS",
+  "name": "ARC LONG 005",
+  "price": "149€",
+  "availability": "Disponible vía mensaje directo.",
+  "description": "Pieza única artesanal.",
+  "text": "Bolso shopper amarillo verdoso en cuero recuperado con cierre de flecos largos.\nEtiqueta a tono grabada y cosida a mano.\nForro oscuro con raya a contraste y bolsillo interior.",
+  "details": "Cuero recuperado de excedentes de fábrica.\n44 × 32 × 11 cm\n117 cm (longitud total del asa)\nHecho a mano en Vigo.",
+  "care": "No lavar en lavadora ni usar secadora.\nEvitar la exposición prolongada al sol y al agua.",
+  "images": [
+    "/assets/arclong.005.01.jpg",
+    "/assets/arclong.005.02.jpg",
+    "/assets/arclong.005.03.jpg",
+    "/assets/arclong.005.04.jpg"
+  ]
+}
+,
+{
   "id": "seda-blue",
   "section": "VESTIR",
   "category": "PAÑUELOS",
@@ -86,8 +249,8 @@
   "details": "100% seda\n66 x 66 cm\nHecho a mano en España\nLa seda refleja la luz de forma única, por lo que los tonos pueden percibirse ligeramente distintos según el entorno.",
   "care": "Lavar a mano en frío.\nNo usar secadora.\nPlanchar a baja temperatura (máx. 100º).",
   "images": [
-    "/assets/seda.blue.01.jpeg",
-    "/assets/seda.blue.02.jpeg",
+    "/assets/seda.blue.01.jpg",
+    "/assets/seda.blue.02.jpg",
     "/assets/seda.blue.03.jpeg",
     "/assets/seda.blue.04.jpeg"
   ]
@@ -105,8 +268,8 @@
   "care": "Lavar a mano en frío.\nNo usar secadora.\nPlanchar a baja temperatura (máx. 100º).",
   "images": [
     "/assets/seda.ombra.01.jpg",
-    "/assets/seda.ombra.02.jpeg",
-    "/assets/seda.ombra.03.jpeg",
+    "/assets/seda.ombra.02.jpg",
+    "/assets/seda.ombra.03.jpg",
     "/assets/seda.ombra.04.jpg"
   ]
   },
@@ -122,7 +285,7 @@
   "details": "100% lana\nFormato triangular 136 x 66 cm\nHecho a mano en España\nCada pañuelo presenta una composición única del estampado. La disposición de las manchas rosas y verdes varía en cada pieza, haciendo que cada una sea diferente. Así como la firma, que puede ser en ambos tonos.",
   "care": "Lavar a mano en frío.\nNo usar secadora.\nPlanchar a baja temperatura (máx. 100º).",
   "images": [
-    "/assets/lana.lili.01.jpeg",
+    "/assets/lana.lili.01.jpg",
     "/assets/lana.lili.02.jpeg",
     "/assets/lana.lili.03.jpeg",
     "/assets/lana.lili.04.jpeg"
@@ -140,7 +303,7 @@
   "details": "Madera, lino, cristal y papel\n40x50 cm\nHecho en Vigo",
   "care": "Evitar la exposición prolongada al sol.",
   "images": [
-    "/assets/acuarela.blue.01.jpeg",
+    "/assets/acuarela.blue.01.jpg",
     "/assets/acuarela.blue.02.jpeg",
     "/assets/acuarela.blue.03.jpeg",
     "/assets/acuarela.blue.04.jpeg"

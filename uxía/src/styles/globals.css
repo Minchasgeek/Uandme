@@ -430,3 +430,35 @@ img{ max-width:100%; display:block; }
   filter: grayscale(1) contrast(0.95);
   opacity: 0.92;
 }
+
+.pager{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap: 18px;
+  margin: 28px 0 10px;
+}
+
+.pager__btn{
+  font-size: 12px;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+  padding: 10px 14px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  text-decoration: none;
+  color: var(--text);
+  background: #fff;
+}
+
+.pager__btn:hover{ opacity: .7; }
+
+.pager__btn--disabled{
+  opacity: .35;
+  cursor: default;
+}
+
+.pager__info{
+  font-size: 12px;
+  letter-spacing: .12em;
+}

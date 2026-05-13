@@ -5,12 +5,12 @@ import { LaunchBlocks } from "../components/sections/LaunchBlocks.js";
 export function homePage() {
   const hero = HeroCarousel({
     images: [
-    "/assets/inicio.01.jpeg",
+    "/assets/inicio.01.jpg",
     "/assets/inicio.02.jpeg",
-    "/assets/inicio.03.jpeg",
-    "/assets/inicio.04.jpeg",
+    "/assets/inicio.03.jpg",
+    "/assets/inicio.04.jpg",
     "/assets/inicio.05.jpeg",
-    "/assets/inicio.06.jpeg"
+    "/assets/inicio.06.jpg"
   ],
     intervalMs: 3500
   });
