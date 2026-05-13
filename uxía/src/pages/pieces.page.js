@@ -32,7 +32,7 @@ export function piecesPage() {
   list.sort((a, b) => arcLongNumber(b.name) - arcLongNumber(a.name));
 
   // Paginación
-  const pageSize = 7;
+  const pageSize = 9;
   const totalPages = Math.max(1, Math.ceil(list.length / pageSize));
   const currentPage = Math.min(Math.max(page, 1), totalPages);
 
