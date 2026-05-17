@@ -29,7 +29,16 @@ export function piecesPage() {
   });
 
   // Orden descendente ARC LONG 013 -> ... -> 001
-  list.sort((a, b) => arcLongNumber(b.name) - arcLongNumber(a.name));
+  list.sort((a, b) => {
+  const aSold = a.soldOut ? 1 : 0;
+  const bSold = b.soldOut ? 1 : 0;
+
+  // 1) disponibles primero
+  if (aSold !== bSold) return aSold - bSold;
+
+  // 2) dentro del mismo estado, orden ARC LONG descendente
+  return arcLongNumber(b.name) - arcLongNumber(a.name);
+});
 
   // Paginación
   const pageSize = 9;
